@@ -1,0 +1,332 @@
+/* Global Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: new-atten,sans-serif;
+}
+
+// Custom Content Width Size Style
+.content-width {
+    width: 1300px !important;
+}
+
+
+// Slick Slider Styles 
+
+.slider {
+    margin: 0 3.5rem;
+    .slick-prev:before {
+        color:#6058f9;
+    }
+    .slick-next:before {
+        color:#6058f9;
+    } 
+    .slick-dots {
+        margin-bottom: 2rem;
+    }
+    .slick-slide img {
+        display: inline;
+    }
+}
+
+.comic-slider {
+    margin: 0 3.5rem;
+    .slick-prev:before {
+        color:#6058f9;
+    }
+    .slick-next:before {
+        color:#6058f9;
+    } 
+    .slick-dots {
+        margin-bottom: 2rem;
+    }
+    .slick-slide img {
+        display: inline;
+    }
+}
+
+.testimonial-slider {
+    margin: 0 3.5rem;
+    .slick-prev:before {
+        color:#6058f9;
+    }
+    .slick-next:before {
+        color:#6058f9;
+    } 
+    .slick-slide img {
+        display: inline;
+    }
+}
+
+// Custom Button Styles
+.custom-btn {
+    background-color: #6058f9;
+    border-radius: 2rem;
+    color: white;
+    font-size: 0.85rem;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+    padding: 0 1.125rem;
+}
+
+.custom-btn-2 {
+    background-color: #6058f9;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.125rem;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+    padding: 0 1.125rem;
+}
+
+.swiper {
+    max-width: 100%;
+    /*height: 550px;*/
+    height: 600px;
+    /*border-radius: 0.275rem;*/
+    position: relative;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #6058f9, rgb(240, 45, 45)) 1;
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        color: white;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.675));
+        /* position: relative; */
+        .subhead {
+            font-family: new-atten,sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1.25rem;
+        }
+        .text-overlay {
+            /* position: absolute; 
+            left: 5rem;
+            top: 21rem; 
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));*/
+            /*padding-top: 16rem;*/
+            text-align: center;
+            margin: 2rem;
+            margin-top: 315px;
+            font-family: new-atten,sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+    }
+    .parallax-bg {
+        background-image: url('/img/swiper_hero_006.jpg');
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 130%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: 0% 50%;
+        background-repeat: no-repeat;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        color: white;
+    }
+  }
+
+// Nav Styles
+.navbar {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(255, 255, 255, 0.97)), url('/img/comic_bg_002.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0.25px 3px 0px rgba(0, 0, 0, 0.35);
+    .navbar-brand {
+        color: black;
+        .bi-browser-chrome {
+            font-size: 2.5rem;
+        }
+    }
+    .nav-link {
+        color: black;
+        font-weight: 500;
+        &:hover {
+            color: #6058f9;
+        }
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler-icon {
+        font-size: 2rem;
+    }
+    .navbar-toggler-collapsed {
+        margin-top: 2rem;
+    }
+    .custom-search:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .dropdown{
+        .dropdown-menu {
+            padding: 0;
+            width: 30%;
+            margin: 0 auto;
+            border: none;
+            background: white;
+            .dropdown-item {
+                text-align: center;
+                color: black;
+                font-weight: 500;
+                &:hover {
+                    background: #6058f9;
+                    color: white;
+                }
+            }
+        }
+    }
+    .btn-outline {
+        color: #6058f9;
+        border-color: #6058f9;
+    }
+    .bi-cart-fill {
+        font-size: 1.175rem;
+    }
+}
+
+// Shipping Section Styles
+.custom-ship{
+    background-image: linear-gradient(rgba(21, 26, 35, 0.95), rgba(21, 26, 35, 0.95)), url('/img/comic_bg_002.jpg');
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('/img/comic_bg_002.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    span {
+        color: #6058f9;
+    }
+    .ship-title {
+        color: white;
+        span {
+            color: #6058f9;
+        }
+    }
+    p {
+        color: white;
+    }
+    .ship-box {
+        color: black;
+        font-size: 0.75rem;
+        background: white;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+        transition: transform ease 0.45s, box-shadow ease 0.4s;
+        border-radius: 0.325rem;
+        &:hover {
+            transform: translateY(-4px);
+            /*box-shadow: 0px 8px 5px 2px rgba(0, 0, 0, 0.265);*/
+            box-shadow: 0px 2px 20px 10px #6058f9;
+        }
+        h3 {
+            font-size: 1.3rem;
+        }
+    }
+    i {
+        font-size: 2.25rem;
+        color:#6058f9;
+    }
+}
+
+// Top Selling Comics Styles
+
+.top-comics {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/img/texture_bg.webp');
+    span {
+        color: #6058f9;
+    }
+    img {
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+
+// CTA Section Styles
+
+.custom-cta {
+    .custom-bg {
+        background-image: url('/img/bubble_bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .custom-disc {
+        background-image: linear-gradient(rgba(21, 26, 35, 0.95), rgba(21, 26, 35, 0.95)), url('/img/comic_bg_002.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 4.5rem 0;
+        h3 {
+            color: #6058f9;
+        }
+        .code {
+            color: white;
+        }
+    }
+}
+
+// Art Course Section Styles
+
+.art-courses {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('/img/comic_course_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    span {
+        color: #6058f9;
+    }
+    img {
+        border-radius: 0.325rem;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+    }
+    .custom-align {
+        text-align: left;
+    }
+}
+
+// About Section Styles
+
+.custom-about {
+    background: rgb(21, 26, 35);
+    color: white;
+    span {
+        color:#6058f9
+    }
+    img {
+        box-shadow: 0px 0px 20px 0px #6058f9;
+        border-radius: 0.25rem;
+    }
+}
+
+// Testimonials Section Styles
+
+.testimonials {
+    span {
+        color: #6058f9;
+    }
+}
+
+// Footer Section Styles
+
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/img/footer_bg.jpg");
+    background-position: 10% 28%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    .footer-nav-link {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: #6058f9;
+        }
+    }
+    .bi {
+        color:#6058f9;
+        font-size: 1.75rem;
+    }
+}
